@@ -1,0 +1,30 @@
+{
+  "name": "example-froala-with-parcel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamandrewluca/example-froala-with-parcel.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamandrewluca/example-froala-with-parcel/issues"
+  },
+  "homepage": "https://github.com/iamandrewluca/example-froala-with-parcel#readme",
+  "devDependencies": {
+    "froala-pages": "^1.1.0",
+    "parcel": "^1.12.4",
+    "typescript": "^3.9.3"
+  },
+  "alias": {
+    "FroalaPages": "froala-pages"
+  }
+}
